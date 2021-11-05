@@ -1,0 +1,22 @@
+.add-sub-topics,.add-main-topics {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.add-topics {
+	text-align: center;
+}
+
+.add-sub-topics input, select, button,.add-main-topics input {
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.add-sub-topics button,.add-main-topics button {
+	border: 2px solid #ffe6009c;
+	cursor: pointer;
+	background-color: #ffe6009c;
+}

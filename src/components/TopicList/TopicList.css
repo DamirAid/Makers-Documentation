@@ -1,0 +1,22 @@
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.add-topic {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.add-topic button {
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	background-color: transparent;
+	transition: .3s;
+}
+
+.add-topic button:hover {
+	transform: scale(1.1);
+}

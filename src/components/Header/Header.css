@@ -1,0 +1,23 @@
+header{
+	background-color: #20232A;
+	color: white;
+	padding: 20px 0;
+}
+.navbar{
+	justify-content: space-between;
+	display: flex;
+}
+
+.navbar__right{
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;	
+}
+.navbar__right input{
+	background-color: #FFE600;
+	border: none;
+	border-radius: 10px;
+}
